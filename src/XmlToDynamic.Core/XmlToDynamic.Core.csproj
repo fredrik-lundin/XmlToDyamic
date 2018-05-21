@@ -2,14 +2,28 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>Fredrik Lundin</Authors>
+    <Company />
+    <Product>XML to Dynamic</Product>
+    <Description>A simple extension method to convert a `XDocument` to `dynamic`</Description>
+    <PackageLicenseUrl>https://github.com/fredrik-lundin/XmlToDyamic/blob/master/license.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/fredrik-lundin/XmlToDyamic</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/fredrik-lundin/XmlToDyamic/master/icon.jpg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/fredrik-lundin/XmlToDyamic</RepositoryUrl>
+    <PackageTags>XML dynamic</PackageTags>
+    <PackageReleaseNotes>initial version</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>XmlToDynamic.Core</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="nuget.exe" />
+    <None Remove="XmlToDynamic.Core.nuspec" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
   </ItemGroup>
 
 </Project>
