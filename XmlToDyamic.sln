@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7C1884AA-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlToDynamic.Core.Test", "test\XmlToDynamic.Core.Tests\XmlToDynamic.Core.Test.csproj", "{59C83384-DCEF-49A0-B200-8B66D9768CED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6682883E-57E8-40C4-BAA9-1B571EE10F97}"
+	ProjectSection(SolutionItems) = preProject
+		license.txt = license.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
